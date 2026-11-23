@@ -1,1 +1,1 @@
-SELECT employee_id AS empleat FROM employees MINUS SELECT employee_id FROM job_history;
+SELECT employee_id FROM employees MINUS SELECT employee_id FROM job_history;

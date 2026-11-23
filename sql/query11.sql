@@ -1,7 +1,1 @@
-SELECT max(salary) as "salary" FROM Employees
-UNION ALL
-SELECT min(salary) as "salary" FROM Employees
-UNION ALL
-SELECT avg(salary) as "salary" FROM Employees
-UNION ALL
-SELECT sum(salary) as "salary" FROM Employees;
+

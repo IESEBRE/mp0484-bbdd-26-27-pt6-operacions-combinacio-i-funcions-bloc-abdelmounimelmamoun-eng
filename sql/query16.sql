@@ -1,1 +1,6 @@
-SELECT * FROM dual;
+SELECT employee_id AS EMPLEAT, 
+TO_CHAR(hire_date, 'DD/MM/YYYY') AS "DATA CONTRACTACIÓ"
+FROM Employees
+WHERE hire_date BETWEEN TO_DATE('01/01/1998', 'DD/MM/YYYY') 
+AND TO_DATE('31/12/1998 23:59:59', 'DD/MM/YYYY HH24:MI:SS')
+ORDER BY hire_date ASC, employee_id ASC;
